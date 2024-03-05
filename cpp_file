@@ -4,8 +4,22 @@ using namespace std;
 
 int main() {
     LinkedList<int> myLinkedList;
+    myLinkedList.adding_front(58); // list is just 58
+    myLinkedList.adding_back(4); // list is 58 4
+    myLinkedList.rmv_back(); // list is 58
+    myLinkedList.add_anywhere(1, int 5);
+    myLinkedList.add_anywhere(2, int 10);
+    myLinkedList.add_anywhere(3, int 15); // list is 58 5 10 15
+    myLinkedList.delete_anywhere(1); // list is 58 10 15
+    
 
     Stack<int> myStack;
-
+    myStack.push(5); // stack is 5
+    myStack.push(48); // stack is 5 48
+    myStack.pop(); // stack is 5
+    myStack.push(16); // stack is 5 16
+    myStack.push(87); // stack is 5 16 87
+    myStack.push(1); // stack is 5 16 87 1
+    myStack.ave_stack() // stack average is 27.25
     return
 }
